@@ -56,22 +56,7 @@ footer {
     padding: 30px 10px;
     margin-top: 50px;
 }
-.offer-item {
-    clear: both;
-    padding: 20px 0;
-    overflow: hidden; /* Kluczowe dla poprawnego wyświetlania tła i marginesów */
-}
 
-/* Dodaje czarną kreskę pod wybranym blokiem */
-.separator {
-    border-bottom: 2px solid black;
-    margin-bottom: 20px;
-}
-
-/* Resetuje marginesy dla obrazków, aby nie nachodziły na tekst w nowym układzie */
-.img-left, .img-right {
-    margin-bottom: 15px;
-}
 @media (max-width: 768px) {
     .img-left, .img-right {
         float: none;
