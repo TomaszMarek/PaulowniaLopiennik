@@ -130,6 +130,9 @@ address a:hover {
     color: #fff;
     text-decoration: none;
 }
+.section > h2 {
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     .offer-item {
