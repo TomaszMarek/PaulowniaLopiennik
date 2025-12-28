@@ -56,6 +56,21 @@ footer {
     padding: 30px 10px;
     margin-top: 50px;
 }
+
+.clearfix::after,
+.offer-block::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.offer-block {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.offer-block-divider {
+    border-bottom: 3px solid black; 
+    margin-bottom: 30px; 
+}
 @media (max-width: 768px) {
     .img-left, .img-right {
         float: none;
