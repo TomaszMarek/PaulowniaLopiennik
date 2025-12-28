@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -9,6 +10,7 @@ body {
     color: #333;
     background-color: #ddfdd9;
 }
+
 .site-header,
 .site-nav,
 main,
@@ -17,9 +19,11 @@ main,
     margin: 0 auto;
     padding: 20px;
 }
+
 main {
     background: rgba(255, 255, 255, 0.5);
 }
+
 .site-header {
     text-align: center;
 }
@@ -32,6 +36,7 @@ main {
     font-size: 1.1rem;
     color: #555;
 }
+
 .site-nav ul {
     display: flex;
     justify-content: center;
@@ -40,6 +45,7 @@ main {
     padding: 0;
     margin: 0;
 }
+
 .site-nav a {
     text-decoration: none;
     font-weight: bold;
@@ -49,6 +55,7 @@ main {
 .site-nav a:hover {
     text-decoration: underline;
 }
+
 .section {
     margin-bottom: 50px;
 }
@@ -58,6 +65,7 @@ main {
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
+
 
 .lead {
     font-size: 1.15rem;
@@ -71,6 +79,8 @@ main {
 .features li {
     margin-bottom: 15px;
 }
+
+
 .main-image {
     width: 100%;
     border-radius: 8px;
@@ -93,6 +103,8 @@ main {
     width: 100%;
     border-radius: 5px;
 }
+
+
 address {
     font-style: normal;
 }
@@ -106,6 +118,7 @@ address a {
 address a:hover {
     text-decoration: underline;
 }
+
 .site-footer {
     background-color: #2c3e50;
     color: #fff;
@@ -117,6 +130,7 @@ address a:hover {
     color: #fff;
     text-decoration: none;
 }
+
 @media (max-width: 768px) {
     .offer-item {
         grid-template-columns: 1fr;
